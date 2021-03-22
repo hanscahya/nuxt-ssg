@@ -201,7 +201,9 @@ import LineAnchor from '@/assets/svg/line-anchor.vue'
   },
 
   async asyncData ({ $axios } : Context) {
-    const res = await $axios.$get('content/home')
+    const content = await $axios.$get('content/home')
+    console.log(content[0])
+    const res = content[0]
     return { res }
   },
 
