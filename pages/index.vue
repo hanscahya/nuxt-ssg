@@ -19,9 +19,9 @@ export default Vue.extend({
     }
   },
   async mounted () {
-    await this.$axios.get('content/home').then(response => {
+    await this.$axios.get('home').then(response => {
       if (response.status !== 200) throw new Error(response.data.message.reason)
-      else this.res = response.data
+      else this.res = response.data[0]
     })
   }
 })

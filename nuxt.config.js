@@ -44,7 +44,7 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://localhost:8081'
+    baseURL: 'https://605416b645e4b30017292aed.mockapi.io'
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
