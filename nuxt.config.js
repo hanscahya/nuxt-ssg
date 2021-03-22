@@ -1,9 +1,15 @@
 export default {
+  // SSG
   target: 'static',
+
+  // Default port: 3000
+  server: {
+    port: 3001
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-ssg',
+    title: 'OVO',
     htmlAttrs: {
       lang: 'en'
     },
@@ -19,10 +25,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    './assets/styles/main.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/vue-mq.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -44,7 +52,15 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://605416b645e4b30017292aed.mockapi.io'
+    baseURL: 'http://localhost:8081'
+  },
+
+
+  // Bootstrap configuration
+  bootstrapVue: {
+    icons: true,
+    bootstrapCSS: false,
+    bootstrapVueCSS: false
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

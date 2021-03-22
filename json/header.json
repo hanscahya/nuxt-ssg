@@ -1,0 +1,39 @@
+{
+  "logo": "http://localhost:8081/images/icon/logo-white-1x.png",
+  "logo_set": [
+    "http://localhost:8081/images/icon/logo-white-1x.png",
+    "http://localhost:8081/images/icon/logo-white-2x.png"
+  ],
+  "menus": [
+    {
+      "text": "About Us",
+      "link": "/about-us"
+    },
+    {
+      "text": "Our Products",
+      "link": "/our-products",
+      "sub_menus": [
+        {
+          "text": "OVO Invest",
+          "link": "[link]"
+        },
+        {
+          "text": "OVO Proteksi",
+          "link": "[link]"
+        },
+        {
+          "text": "OVO Modal",
+          "link": "[link]"
+        },
+        {
+          "text": "OVO Payment",
+          "link": "[link]"
+        }
+      ]
+    },
+    {
+      "text": "Career",
+      "link": "/career"
+    }
+  ]
+}

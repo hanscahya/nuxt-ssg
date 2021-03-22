@@ -1,0 +1,86 @@
+{
+  "bg_image_lg": "http://localhost:8081/images/footer/bg-lg.png",
+  "bg_image_sm": "http://localhost:8081/images/footer/bg-sm.png",
+
+  "logo": "http://localhost:8081/images/icon/logo-purple-1x.png",
+  "logo_set": [
+    "http://localhost:8081/images/icon/logo-purple-1x.png",
+    "http://localhost:8081/images/icon/logo-purple-2x.png"
+  ],
+
+  "sitemap_1": {
+    "title": "About Us",
+    "items": [
+      {
+        "text": "About Us",
+        "link": "[link]"
+      },
+      {
+        "text": "Privacy Policy",
+        "link": "[link]"
+      },
+      {
+        "text": "FAQ",
+        "link": "[link]"
+      },
+      {
+        "text": "For Talents",
+        "link": "[link]"
+      }
+    ]
+  },
+  "sitemap_2": {
+    "title": "Our Product",
+    "items": [
+      {
+        "text": "OVO Invest",
+        "link": "[link]"
+      },
+      {
+        "text": "OVO Proteksi",
+        "link": "[link]"
+      },
+      {
+        "text": "OVO Modal",
+        "link": "[link]"
+      },
+      {
+        "text": "OVO Payment",
+        "link": "[link]"
+      }
+    ]
+  },
+  "sitemap_3": {
+    "title": "Careers",
+    "items": [
+      {
+        "text": "Careers",
+        "link": "[link]"
+      }
+    ]
+  },
+  "sitemap_4": {
+    "title": "Get in touch",
+    "items": [
+      {
+        "text": "Help Center",
+        "link": "[link]"
+      },
+      {
+        "text": "Contact Us",
+        "link": "[link]"
+      }
+    ]
+  },
+  "social_media_link": {
+    "title": "Connect with us",
+    "facebook": "[link]",
+    "twitter": "[link]",
+    "instagram": "[link]",
+    "youtube": "[link]"
+  },
+  "download_link": {
+    "google_play": "[link]",
+    "app_store": "[link]"
+  }
+}
