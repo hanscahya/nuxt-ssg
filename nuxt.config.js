@@ -30,7 +30,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    '~/plugins/vue-mq.js'
+    '~/plugins/vue-screen.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -52,7 +52,8 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://605416b645e4b30017292aed.mockapi.io/'
+    baseURL: 'https://605416b645e4b30017292aed.mockapi.io'
+    // baseURL: 'http://localhost:8081'
   },
 
 

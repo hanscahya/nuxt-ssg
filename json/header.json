@@ -1,9 +1,5 @@
 {
-  "logo": "http://localhost:8081/images/icon/logo-white-1x.png",
-  "logo_set": [
-    "http://localhost:8081/images/icon/logo-white-1x.png",
-    "http://localhost:8081/images/icon/logo-white-2x.png"
-  ],
+  "logo_set": "https://live.staticflickr.com/65535/51065745177_919fce8690_o.png, https://live.staticflickr.com/65535/51065653026_98b75b4253_o.png",
   "menus": [
     {
       "text": "About Us",
@@ -11,7 +7,7 @@
     },
     {
       "text": "Our Products",
-      "link": "/our-products",
+      "link": "/products",
       "sub_menus": [
         {
           "text": "OVO Invest",

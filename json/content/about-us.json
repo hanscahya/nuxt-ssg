@@ -1,0 +1,164 @@
+{
+  "hero_1": {
+    "bg_image_lg": "https://i.imgur.com/zDXAel1.png",
+    "bg_image_sm": "https://i.imgur.com/q4GHu84.png",
+
+    "bitmap": "https://i.imgur.com/9p36QYB.png",
+    "bitmap_set": "https://i.imgur.com/9p36QYB.png 1x, https://i.imgur.com/UQ5AScr.png 2x",
+
+    "title": "Memudahkan urusan finansialmu untuk ekonomi Indonesia yang lebih cerah",
+    "paragraph": "Misi kami adalah memastikan semua orang Indonesia punya akses ke layanan finansial secara merata",
+    "button_text": "Read Our Story",
+    "button_link": "[link]"
+  },
+  "section_vision_mision": {
+    "anchor": "Visi dan Misi",
+    "title": "Di OVO (PT. Visionet Indonesia)",
+    "paragraph": "Kami percaya semua orang harus memiliki akses ke layanan dan produk finansial secara merata. Ini adalah visi yang membawa kami dari secercah ide di tahun 2017 menjadi unicorn kelima di Indonesia hanya dalam kurun waktu dua tahun.",
+
+    "heading_1": "OVO sudah diterima secara nasional",
+    "content_1": "Kami berkomitmen untuk membangun perusahaan teknologi dan pembayaran digital terbesar di Indonesia. Ini kami lakukan dengan memberdayakan pengguna dan merchant untuk menciptakan ekosistem digital yang inklusif.",
+    "heading_2": "Dengan fasilitas yang OVO miliki",
+    "content_2": "Fasilitas dalam layanan kami membantu pengguna, bisnis, dan mitra agar bisa tumbuh dan berkembang dengan pembayaran digital.",
+
+    "bitmap": "https://i.imgur.com/mvcD4hB.png",
+    "bitmap_set": "https://i.imgur.com/mvcD4hB.png 1x, https://i.imgur.com/Z5en7Fl.png 2x"
+  },
+  "section_timeline": {
+    "bitmap": "https://i.imgur.com/sqoxPiC.png",
+    "bitmap_set": "https://i.imgur.com/sqoxPiC.png 1x, https://i.imgur.com/1u6XU9x.png 3x",
+
+    "anchor": "Kisah Sukses",
+    "title": "Perjalanan OVO sebagai unicorn Indonesia",
+    "items": [
+      {
+        "text": "Saat ini",
+        "description": "<strong>OVO adalah platform pembayaran dan finansial digital terkemuka di Indonesia.</strong>"
+      },
+      {
+        "text": "2021",
+        "description": "Meluncurkan <strong>layanan investasi</strong> bekerjasama dengan firma investasi"
+      },
+      {
+        "text": "2020",
+        "description": "Meluncurkan <strong>layanan asuransi</strong> bekerjasama dengan mitra asuransi"
+      },
+      {
+        "text": "2019",
+        "description": "Diakui oleh <strong>Menkominfo</strong> sebagai <strong>unicorn kelima</strong> di Indonesia<br><strong>Meluncurkan layanan peminjaman modal usaha</strong> dengan akuisisi Taralite (PT Bara Sejahtera)<br>Diklaim sebagai platform pembayaran digital terkemuka di Indonesia oleh Bank Indonesia"
+      },
+      {
+        "text": "2018",
+        "description": "Bermitra dengan platform layanan pemesanan transportasi Grab dan platform e-commerce terkemuka Tokopedia"
+      },
+      {
+        "text": "2017",
+        "description": "Berdiri di Indonesia sebagai platfrom pembayaran digital yang dilisensi oleh Bank Indonesia"
+      }
+    ],
+    "bitmap_1": "https://live.staticflickr.com/65535/51067921366_9343d248b5_o.png",
+    "bitmap_2": "https://live.staticflickr.com/65535/50998734270_ee931a034f_o.png"
+  },
+  "section_service": {
+    "anchor": "Layanan",
+    "title": "Layanan Finansial OVO",
+    "paragraph": "Kami dan para mitra menyediakan paket lengkap layanan finansial secara online dan offline.",
+    "list_items": [
+      "Biaya Parkir",
+      "Donasi",
+      "Promo",
+      "Bayar Tagihan E-Commerce",
+      "Isi Ulang Kartu Tol",
+      "Beli Asuransi"
+    ],
+
+    "items": [
+      {
+        "icon": "https://i.imgur.com/P1hgNML.png",
+        "icon_set": "https://i.imgur.com/P1hgNML.png 1x, https://i.imgur.com/EPhBjNc.png 2x",
+        "text": "OVO Protection",
+        "description": "Lindungi barang berharga untuk masa depan lebih tenang."
+      },
+      {
+        "icon": "https://i.imgur.com/j6zWs9E.png",
+        "icon_set": "https://i.imgur.com/j6zWs9E.png 1x, https://i.imgur.com/2KbIf9L.png 2x",
+        "text": "OVO Invest",
+        "description": "Mulai investasi dengan yang pasti!"
+      },
+      {
+        "icon": "https://i.imgur.com/TGdjNHi.png",
+        "icon_set": "https://i.imgur.com/TGdjNHi.png 1x, https://i.imgur.com/4pVKDYD.png 2x",
+        "text": "OVO Modal",
+        "description": "Pengajuan modal jangan penden dengan cepat dan aman"
+      },
+      {
+        "icon": "https://i.imgur.com/TGdjNHi.png",
+        "icon_set": "https://i.imgur.com/TGdjNHi.png 1x, https://i.imgur.com/4pVKDYD.png 2x",
+        "text": "OVO Payment",
+        "description": "Kemudahan transaksi untuk semua merchant OVO"
+      }
+    ]
+  },
+  "section_join_us": {
+    "title": "Bergabunglah dengan kami",
+    "paragraph": "Untuk menjadi bagian dari ekosistem digital terbuka terbesar di Indonesia",
+
+    "center_img": "https://i.imgur.com/0fP0SlB.png",
+    "center_img_set": "https://i.imgur.com/0fP0SlB.png 1x, https://i.imgur.com/quXGcYt.png 2x",
+    "items": [
+      {
+        "icon": "https://i.imgur.com/DcKlhNj.png",
+        "icon_set": "https://i.imgur.com/DcKlhNj.png 1x, https://i.imgur.com/GX9pKKJ.png 2x",
+        "text": "Ekosistem yang besar"
+      },
+      {
+        "icon": "https://i.imgur.com/iuPr3u3.png",
+        "icon_set": "https://i.imgur.com/iuPr3u3.png 1x, https://i.imgur.com/HqyTH8d.png 2x",
+        "text": "Pesan antar makanan"
+      },
+      {
+        "icon": "https://i.imgur.com/M8PU6FS.png",
+        "icon_set": "https://i.imgur.com/M8PU6FS.png 1x, https://i.imgur.com/gCHy0Du.png 2x",
+        "text": "Ritel tradisional"
+      },
+      {
+        "icon": "https://i.imgur.com/RX5HYP1.png",
+        "icon_set": "https://i.imgur.com/RX5HYP1.png 1x, https://i.imgur.com/7XRtDt5.png 2x",
+        "text": "Pembayaran digital"
+      },
+      {
+        "icon": "https://i.imgur.com/GA0cPl3.png",
+        "icon_set": "https://i.imgur.com/GA0cPl3.png 1x, https://i.imgur.com/H0vYflu.png 2x",
+        "text": "Layanan pemesanan transportasi"
+      },
+      {
+        "icon": "https://i.imgur.com/6VX1pZH.png",
+        "icon_set": "https://i.imgur.com/6VX1pZH.png 1x, https://i.imgur.com/xn0Nzyd.png 2x",
+        "text": "Platform e-commerce #1"
+      }
+    ]
+  },
+  "section_partners_1": {
+    "anchor": "Mitra",
+    "title": "Mitra favorit kami sudah menunjukkan",
+    "paragraph": "Ribuan mitra di Indonesia sudah membuktikan bahwa pembayaran digital bisa meningkatkan pendapatan usaha.",
+    "image_sets": [
+      "https://i.imgur.com/FG0Rezyl.jpg 576w, https://i.imgur.com/FG0Rezy.jpg 1440w"
+    ]
+  },
+  "section_partners_2": {
+    "anchor": "Mitra",
+    "title": "OVO culture motto",
+    "paragraph": "Bantu kami wujudkan solusi cerdas finansial untuk semua masyarakat Indonesia melalui pembayaran digital",
+    "button_text": "Lihat Lowongan",
+    "button_link": "[link]",
+    "image_sets": [
+      "https://i.imgur.com/FG0Rezyl.jpg 576w, https://i.imgur.com/FG0Rezyl.jpg 1440w",
+      "https://i.imgur.com/gSW8NA3l.jpg 576w, https://i.imgur.com/gSW8NA3l.jpg 1440w",
+      "https://i.imgur.com/Np7U5t3l.jpg 576w, https://i.imgur.com/Np7U5t3l.jpg 1440w",
+      "https://i.imgur.com/piK5fANl.jpg 576w, https://i.imgur.com/piK5fANl.jpg 1440w",
+      "https://i.imgur.com/FG0Rezyl.jpg 576w, https://i.imgur.com/FG0Rezyl.jpg 1440w",
+      "https://i.imgur.com/gSW8NA3l.jpg 576w, https://i.imgur.com/gSW8NA3l.jpg 1440w"
+    ]
+  }
+}

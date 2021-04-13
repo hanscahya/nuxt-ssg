@@ -1,0 +1,12 @@
+{
+  "hero_1": {
+    "bg_image_lg": "https://i.imgur.com/2GRirxe.png",
+    "bg_image_sm": "https://i.imgur.com/rVzED8v.png",
+
+    "bitmap": "https://i.imgur.com/BOSQJ6o.png",
+    "bitmap_set": "https://i.imgur.com/X4exTBG.png 576w, https://i.imgur.com/BOSQJ6o.png 992w",
+
+    "title": "#createyourpath<br>with OVO",
+    "paragraph": "Memimpin inovasi dan transformasi digital dalam bidang keuangan: Dengan teknologi termaju dan standar global, OVO memimpin inovasi aplikasi dan layanan finansial untuk masa yang akan datang."
+  }
+}

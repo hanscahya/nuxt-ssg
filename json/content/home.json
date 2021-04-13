@@ -1,14 +1,16 @@
 {
   "hero_1": {
-    "bg_image_sm": "http://localhost:8081/images/home/hero-1-sm.png",
-    "bg_image_lg": "http://localhost:8081/images/home/hero-1-lg.png",
+    "bg_image_sm": "https://live.staticflickr.com/65535/51067690656_a14ef2bea7_o.png",
+    "bg_image_lg": "https://i.imgur.com/xyE3og2.png",
 
-    "title": "Bayar banyak.<br>Gak pakai ribet.",
-    "paragraph": "Eu irure tempor aute sit laboris nisi ullamco eiusmod non exercitation.",
+    "bitmap": "https://i.imgur.com/8hhJOIH.png",
+    "bitmap_set": "https://i.imgur.com/8hhJOIH.png 1x, https://i.imgur.com/5U4Kmrr.png 2x",
+
+    "title": "Bayar keperluan<br>sehari-hari. Gak<br>pakai ribet",
+    "paragraph": null,
     "google_play_link": "[link]",
     "app_store_link": "[link]"
   },
-
   "section_merchant": {
     "title": "Dengan <strong>OVO</strong>,",
     "paragraph": "Jutaan merchant di Indonesia sudah membuktikan bahwa pembayaran digital bisa meningkatkan pendapatan usaha.",
@@ -16,61 +18,59 @@
     "all_merchants_link": "[link]",
     "items": [
       {
-        "img": "http://localhost:8081/images/merchants/tokopedia.png",
+        "img": "https://live.staticflickr.com/65535/51067700111_4873c4f792_o.png",
         "text": "Tokopedia"
       },
       {
-        "img": "http://localhost:8081/images/merchants/blibli.png",
+        "img": "https://live.staticflickr.com/65535/51066999388_2deffa251d_o.png",
         "text": "Blibli"
       },
       {
-        "img": "http://localhost:8081/images/merchants/grab.png",
+        "img": "https://live.staticflickr.com/65535/51067700171_6d6bfd55a2_o.png",
         "text": "Grab"
       },
       {
-        "img": "http://localhost:8081/images/merchants/indosat.png",
+        "img": "https://live.staticflickr.com/65535/51067700136_42fbb56695_o.png",
         "text": "Indosat"
       },
       {
-        "img": "http://localhost:8081/images/merchants/bibit.png",
+        "img": "https://live.staticflickr.com/65535/51066999398_01b9d34571_o.png",
         "text": "Bibit"
       },
       {
-        "img": "http://localhost:8081/images/merchants/bukalapak.png",
+        "img": "https://live.staticflickr.com/65535/51066999378_8d9c58815b_o.png",
         "text": "Bukalapak"
       },
       {
-        "img": "http://localhost:8081/images/merchants/grab.png",
+        "img": "https://live.staticflickr.com/65535/51067700171_6d6bfd55a2_o.png",
         "text": "Grab"
       },
       {
-        "img": "http://localhost:8081/images/merchants/indosat.png",
+        "img": "https://live.staticflickr.com/65535/51067700136_42fbb56695_o.png",
         "text": "Indosat"
       },
       {
-        "img": "http://localhost:8081/images/merchants/bibit.png",
+        "img": "https://live.staticflickr.com/65535/51066999398_01b9d34571_o.png",
         "text": "Bibit"
       },
       {
-        "img": "http://localhost:8081/images/merchants/bukalapak.png",
+        "img": "https://live.staticflickr.com/65535/51066999378_8d9c58815b_o.png",
         "text": "Bukalapak"
       },
       {
-        "img": "http://localhost:8081/images/merchants/tokopedia.png",
+        "img": "https://live.staticflickr.com/65535/51067700111_4873c4f792_o.png",
         "text": "Tokopedia"
       },
       {
-        "img": "http://localhost:8081/images/merchants/blibli.png",
+        "img": "https://live.staticflickr.com/65535/51066999388_2deffa251d_o.png",
         "text": "Blibli"
       }
     ]
   },
-
   "section_about": {
-    "bitmap": "http://localhost:8081/images/home/about.png",
-    "bg_image_sm": "http://localhost:8081/images/home/about-bg-sm.png",
-    "bg_image_lg": "http://localhost:8081/images/home/about-bg-lg.png",
-
+    "bitmap": "https://live.staticflickr.com/65535/51067006328_8c36d74d42_o.png",
+    "bg_image_sm": "https://live.staticflickr.com/65535/50998522150_e240e2da23_o.png",
+    "bg_image_lg": "https://live.staticflickr.com/65535/50998522170_3c6b5e1ae4_o.png",
     "anchor": "OVO",
     "title_1": "Dengan OVO apa yang bisa kamu lakuin",
     "paragraph_1": "Kami membangun ekosistem keuangan yang sehat dan transparan untuk 1 juta rekan merchant kami di seluruh Indonesia. Dari UMKM, retail tradisional, layanan pesan antar, hingga pembayaran toko online.",
@@ -83,17 +83,15 @@
       "Asuransi"
     ]
   },
-
   "section_product": {
     "anchor": "Produk",
     "title": "Produk finansial yang kita berikan",
     "paragraph": "Kami membangun ekosistem keuangan yang sehat dan transparan untuk 1 juta rekan merchant kami di seluruh Indonesia. Dari UMKM, retail tradisional, layanan pesan antar, hingga pembayaran toko online.",
     "items": [
       {
-        "icon_sm": "http://localhost:8081/images/home/product-icon-ovo-proteksi.png",
-        "icon_lg": "http://localhost:8081/images/home/product-icon-ovo-proteksi2x.png",
-        "bitmap": "http://localhost:8081/images/home/product-ovo-proteksi.png",
-        
+        "icon_sm": "https://live.staticflickr.com/65535/50998538570_cbb7946cee_o.png",
+        "icon_lg": "https://live.staticflickr.com/65535/51067024398_694a91477c_o.png",
+        "bitmap": "https://live.staticflickr.com/65535/51067725191_85b9580494_o.png",
         "id": "product-1",
         "title": "OVO Proteksi",
         "paragraph": "Est congue rutrum netus libero purus, egestas amet, tortor. Nisl, elit felis in porttitor. Arcu feugiat auctor ullamcorper praesent urna sed odio. Amet nec et non tellus vitae mauris. Mauris aliquam elementum at donec semper in quisque.",
@@ -101,10 +99,9 @@
         "action_link": "[link]"
       },
       {
-        "icon_sm": "http://localhost:8081/images/home/product-icon-ovo-invest.png",
-        "icon_lg": "http://localhost:8081/images/home/product-icon-ovo-proteksi2x.png",
-        "bitmap": "http://localhost:8081/images/home/product-ovo-proteksi.png",
-        
+        "icon_sm": "https://live.staticflickr.com/65535/51067023033_f2d79e663f_o.png",
+        "icon_lg": "https://live.staticflickr.com/65535/51067024398_694a91477c_o.png",
+        "bitmap": "https://live.staticflickr.com/65535/51067725191_85b9580494_o.png",
         "id": "product-1",
         "title": "OVO Invest",
         "paragraph": "Est congue rutrum netus libero purus, egestas amet, tortor. Nisl, elit felis in porttitor. Arcu feugiat auctor ullamcorper praesent urna sed odio. Amet nec et non tellus vitae mauris. Mauris aliquam elementum at donec semper in quisque.",
@@ -112,10 +109,9 @@
         "action_link": "[link]"
       },
       {
-        "icon_sm": "http://localhost:8081/images/home/product-icon-ovo-modal.png",
-        "icon_lg": "http://localhost:8081/images/home/product-icon-ovo-proteksi2x.png",
-        "bitmap": "http://localhost:8081/images/home/product-ovo-proteksi.png",
-        
+        "icon_sm": "https://live.staticflickr.com/65535/51067023108_37c2bb475a_o.png",
+        "icon_lg": "https://live.staticflickr.com/65535/51067024398_694a91477c_o.png",
+        "bitmap": "https://live.staticflickr.com/65535/51067725191_85b9580494_o.png",
         "id": "product-1",
         "title": "OVO Modal",
         "paragraph": "Est congue rutrum netus libero purus, egestas amet, tortor. Nisl, elit felis in porttitor. Arcu feugiat auctor ullamcorper praesent urna sed odio. Amet nec et non tellus vitae mauris. Mauris aliquam elementum at donec semper in quisque.",
@@ -123,10 +119,9 @@
         "action_link": "[link]"
       },
       {
-        "icon_sm": "http://localhost:8081/images/home/product-icon-ovo-payment.png",
-        "icon_lg": "http://localhost:8081/images/home/product-icon-ovo-proteksi2x.png",
-        "bitmap": "http://localhost:8081/images/home/product-ovo-proteksi.png",
-        
+        "icon_sm": "https://live.staticflickr.com/65535/51067023098_8bc90f1f0a_o.png",
+        "icon_lg": "https://live.staticflickr.com/65535/51067024398_694a91477c_o.png",
+        "bitmap": "https://live.staticflickr.com/65535/51067725191_85b9580494_o.png",
         "id": "product-1",
         "title": "OVO Payment",
         "paragraph": "Est congue rutrum netus libero purus, egestas amet, tortor. Nisl, elit felis in porttitor. Arcu feugiat auctor ullamcorper praesent urna sed odio. Amet nec et non tellus vitae mauris. Mauris aliquam elementum at donec semper in quisque.",
@@ -135,9 +130,8 @@
       }
     ]
   },
-
   "section_infographics": {
-    "bg_image": "http://localhost:8081/images/home/infographics-bg.png",
+    "bg_image": "https://live.staticflickr.com/65535/51067736726_1492a16a82_o.png",
     "paragraph": "<strong>Dengan lebih dari 115 juta pengguna</strong>, kami percaya OVO bisa mewujudkan solusi finansial yang cerdas untuk semua orang di Indonesia.",
     "user_label": "Pengguna",
     "user_number": "115jt",
@@ -146,57 +140,55 @@
     "partner_label": "Mitra",
     "partner_number": "10rb"
   },
-
   "section_other_feature": {
     "feature_1": {
-      "img": "http://localhost:8081/images/home/other-feature-1.png",
+      "img": "https://live.staticflickr.com/65535/50998552975_5eb04c88de_o.png",
       "title": "Paket lengkap untuk semua kebutuhan anda",
       "paragraph": "Masih isi ulang kartu tol dari minimarket? Atau bayar toko online lewat m-banking? Selesaikan semua pembayaran digital Anda dengan OVO tanpa usaha lebih."
     },
     "feature_2": {
-      "img": "http://localhost:8081/images/home/other-feature-2.png",
+      "img": "https://live.staticflickr.com/65535/51067834227_7bb515d16e_o.png",
       "title": "Sistem keamanan<br>terjamin dengan perlindungan ganda",
       "paragraph": "Takut akun Anda disalahgunakan? Atau khawatir saldo<br>diambil orang tidak bertanggung jawab? Amankan akun OVO<br>anda dengan nomor handphone terdaftar dan security code."
     }
   },
-
   "section_testimony": {
-    "bg_image_lg": "http://localhost:8081/images/home/testimony-bg-lg.png",
-    "bg_image_sm": "http://localhost:8081/images/home/testimony-bg-sm.png",
+    "bg_image_lg": "https://live.staticflickr.com/65535/51067725226_a390fe9023_o.png",
+    "bg_image_sm": "https://live.staticflickr.com/65535/51067821252_297e53516b_o.png",
     "title": "Apa kata<br>pengguna OVO",
     "items": [
       {
         "name": "James Bernard",
         "label": "Head of UX",
-        "avatar": "http://localhost:8081/images/avatar/James_Bernard.png",
+        "avatar": "https://live.staticflickr.com/65535/50998560785_aa807c64dc_o.png",
         "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
       },
       {
         "name": "Brooklyn Simmons",
         "label": "Head of UX",
-        "avatar": "http://localhost:8081/images/avatar/Brooklyn_Simmons.png",
+        "avatar": "https://live.staticflickr.com/65535/51067842377_c14f8510cc_o.png",
         "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
       },
       {
         "name": "Leslie Alexander",
         "label": "Head of UX",
-        "avatar": "http://localhost:8081/images/avatar/Leslie_Alexander.png",
+        "avatar": "https://live.staticflickr.com/65535/51067842437_255b79ef61_o.png",
         "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
       },
       {
         "name": "James Bernard",
         "label": "Head of UX",
-        "avatar": "http://localhost:8081/images/avatar/James_Berna.png",
+        "avatar": "https://live.staticflickr.com/65535/50998560790_453f6dcb43_o.png",
         "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
       }
     ]
   },
-
   "section_contact_us": {
-    "bitmap": "http://localhost:8081/images/home/contact-us.png",
-    "title": "Ada pertanyaan,<br>hubungi kami",
-    "paragraph": "Bersama OVO,<br>selesaikan semua kebutuhan finansial Anda dan simpan waktu Anda untuk hal-hal yang berarti",
-    "button_text": "Hubungi Kami",
+    "bitmap": "https://i.imgur.com/tK4hBUe.png",
+    "bitmap_set": "https://i.imgur.com/tK4hBUe.png 1x, https://i.imgur.com/vA2oVNM.png 2x",
+    "title": "Punya Pertanyaan?",
+    "paragraph": "Kami punya tim yang berdedikasi untuk selalu membantumu kapan saja.",
+    "button_text": "Tanya Sesuatu",
     "button_link": "[link]"
   }
 }

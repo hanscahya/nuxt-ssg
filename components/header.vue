@@ -1,58 +1,41 @@
 <template lang="pug">
-  div.header(v-if="res")
+  div.header(v-if="header")
     b-container
       b-row.p-3
         b-col.d-flex.justify-content-between
-          img(:src="res.logo" :srcset="res.logo_set.join(', ')")
-          div.menus
+          //- left
+          nuxt-link(to="/")
+            img(:srcset="header.logo_set")
+
+          //- center
+          div.menus(v-if="$screen.md")
             div.item(
-              v-for="(menu, menuIndex) in res.menus"
+              v-for="(menu, menuIndex) in header.menus"
               :key="menuIndex")
-              span {{ menu.text }}
-              span(v-if="menu.sub_menus") &nbsp;<b-icon icon="chevron-down"></b-icon>
+              nuxt-link(:to="menu.link") {{ menu.text }}&nbsp;
+              b-icon(v-if="menu.sub_menus" icon="chevron-down")
               div.sub-menus(v-if="menu.sub_menus")
                 div.sub-item(
                   v-for="(menu, menuIndex) in menu.sub_menus"
                   :key="menuIndex") {{ menu.text }}
-          div.lang
+
+          //- right
+          div.lang(v-if="$screen.md")
             span EN&nbsp;
             b-icon(icon="chevron-down")
+          div.lang(v-else)
+            b-icon(icon="list")
 
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Context } from "@nuxt/types";
+import { Component, Vue } from "nuxt-property-decorator";
 
-export default Vue.extend({
-  data () {
-    return {
-      res: null
-    }
-  },
-
-  mounted () {
-    this.fetchHeader()
-  },
-
-  methods: {
-    async fetchHeader () {
-      // show loading
-      this.$store.commit('loading', true)
-
-      // api request
-      try {
-        let response = await this.$axios.get('header')
-        if (response.status !== 200) throw new Error(response.data.message.reason)
-        else this.res = response.data
-
-        // hide loading
-        this.$store.commit('loading', false)
-      } catch (error) {
-        console.log(error)
-      }
-    }
-  }
+@Component({
+  props: ["header"]
 })
+export default class Header extends Vue {}
 </script>
 
 <style lang="scss" scoped>
@@ -63,7 +46,7 @@ export default Vue.extend({
   z-index: 10;
 
   color: #fff;
-  font-family: 'Eina_01_Regular';
+  font-family: "Eina_01_Regular";
   font-size: 14px;
   letter-spacing: 0.6px;
 
@@ -75,6 +58,11 @@ export default Vue.extend({
       margin-right: 20px;
 
       cursor: pointer;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
     }
 
     .item:hover .sub-menus {

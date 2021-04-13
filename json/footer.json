@@ -1,31 +1,27 @@
 {
-  "bg_image_lg": "http://localhost:8081/images/footer/bg-lg.png",
-  "bg_image_sm": "http://localhost:8081/images/footer/bg-sm.png",
+  "bg_image_lg": "https://live.staticflickr.com/65535/51065688306_69ea024b76_o.png",
+  "bg_image_sm": "https://live.staticflickr.com/65535/51064979988_bc63522bb8_o.png",
 
-  "logo": "http://localhost:8081/images/icon/logo-purple-1x.png",
-  "logo_set": [
-    "http://localhost:8081/images/icon/logo-purple-1x.png",
-    "http://localhost:8081/images/icon/logo-purple-2x.png"
-  ],
+  "separator_lg": "https://i.imgur.com/Edz16dP.png",
+  "separator_sm": "https://i.imgur.com/CCaG5d7.png",
+
+  "logo": "https://i.imgur.com/0fP0SlB.png",
+  "logo_set": "https://i.imgur.com/0fP0SlB.png 1x, https://i.imgur.com/quXGcYt.png 2x",
 
   "sitemap_1": {
-    "title": "About Us",
+    "title": "Company",
     "items": [
       {
         "text": "About Us",
-        "link": "[link]"
+        "link": "about-us"
       },
       {
-        "text": "Privacy Policy",
-        "link": "[link]"
+        "text": "Career",
+        "link": "career"
       },
       {
-        "text": "FAQ",
-        "link": "[link]"
-      },
-      {
-        "text": "For Talents",
-        "link": "[link]"
+        "text": "Press",
+        "link": "press"
       }
     ]
   },
@@ -33,29 +29,25 @@
     "title": "Our Product",
     "items": [
       {
-        "text": "OVO Invest",
-        "link": "[link]"
-      },
-      {
         "text": "OVO Proteksi",
-        "link": "[link]"
-      },
-      {
-        "text": "OVO Modal",
-        "link": "[link]"
-      },
-      {
-        "text": "OVO Payment",
-        "link": "[link]"
+        "link": "product/protection"
       }
     ]
   },
   "sitemap_3": {
-    "title": "Careers",
+    "title": "Legal",
     "items": [
       {
-        "text": "Careers",
-        "link": "[link]"
+        "text": "Privacy Policy",
+        "link": "privacy-policy"
+      },
+      {
+        "text": "Terms of Use",
+        "link": "terms-of-use"
+      },
+      {
+        "text": "FAQ",
+        "link": "faq"
       }
     ]
   },
@@ -64,23 +56,32 @@
     "items": [
       {
         "text": "Help Center",
-        "link": "[link]"
-      },
-      {
-        "text": "Contact Us",
-        "link": "[link]"
+        "link": "help-center"
       }
     ]
   },
   "social_media_link": {
     "title": "Connect with us",
-    "facebook": "[link]",
-    "twitter": "[link]",
-    "instagram": "[link]",
-    "youtube": "[link]"
+    "facebook": "https://www.facebook.com/ovoidn",
+    "facebook_icon": "https://i.imgur.com/9SWAUWx.png",
+    "facebook_icon_set": "https://i.imgur.com/9SWAUWx.png 1x, https://i.imgur.com/igwEJdb.png 2x",
+    "twitter": "https://twitter.com/ovo_id",
+    "twitter_icon": "https://i.imgur.com/q0wSLj5.png",
+    "twitter_icon_set": "https://i.imgur.com/q0wSLj5.png 1x, https://i.imgur.com/OBNy2iF.png 2x",
+    "instagram": "https://instagram.com/ovo_id",
+    "instagram_icon": "https://i.imgur.com/F9a2yHA.png",
+    "instagram_icon_set": "https://i.imgur.com/F9a2yHA.png 1x, https://i.imgur.com/iT5mfEL.png 2x",
+    "youtube": "https://www.youtube.com/channel/UCtu3stb17wcL-6EBLaNZCnw",
+    "youtube_icon": "https://i.imgur.com/VKzypnD.png",
+    "youtube_icon_set": "https://i.imgur.com/VKzypnD.png 1x, https://i.imgur.com/KiDGxVp.png 2x"
   },
   "download_link": {
-    "google_play": "[link]",
-    "app_store": "[link]"
+    "title": "Download the app",
+    "google_play": "https://app.appsflyer.com/ovo.id?pid=OVO_Website&c=Website_Install_Button_Adr",
+    "google_play_icon": "https://i.imgur.com/3y4Iue7.png",
+    "google_play_icon_set": "https://i.imgur.com/3y4Iue7.png 1x, https://i.imgur.com/TnuPgD9.png 2x",
+    "app_store": "https://app.appsflyer.com/id1142114207?pid=OVO_Website&c=Website_Install_Button_iOS",
+    "app_store_icon": "https://i.imgur.com/jzgW7wU.png",
+    "app_store_icon_set": "https://i.imgur.com/jzgW7wU.png 1x, https://i.imgur.com/tvFFy8F.png 2x"
   }
 }

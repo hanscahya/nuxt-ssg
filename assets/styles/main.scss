@@ -3,41 +3,46 @@
 /* ****** */
 // https://github.com/nuxt/nuxt.js/issues/6944#issuecomment-594305146
 // clear warning from DevTools failed to load SourceMap: Could not load content for bootstrap.css.map
-@import 'bootstrap/scss/bootstrap.scss';
-@import 'bootstrap-vue/src/index.scss';
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";
 
 @font-face {
   font-family: "Eina_01_Bold";
   font-display: swap;
   src: url(../fonts/eina/Eina01-Bold.eot); /* IE9 Compat Modes */
-  src: url(../fonts/eina/Eina01-Bold.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-    url(../fonts/eina/Eina01-Bold.svg) format("svg"), /* Legacy iOS */
-    url(../fonts/eina/Eina01-Bold.ttf) format("truetype"), /* Safari, Android, iOS */
-    url(../fonts/eina/Eina01-Bold.woff) format("woff"), /* Modern Browsers */
-    url(../fonts/eina/Eina01-Bold.woff2) format("woff2"); /* Modern Browsers */
+  src: url(../fonts/eina/Eina01-Bold.eot?#iefix) format("embedded-opentype"),
+    /* IE6-IE8 */ url(../fonts/eina/Eina01-Bold.svg) format("svg"),
+    /* Legacy iOS */ url(../fonts/eina/Eina01-Bold.ttf) format("truetype"),
+    /* Safari, Android, iOS */ url(../fonts/eina/Eina01-Bold.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../fonts/eina/Eina01-Bold.woff2) format("woff2"); /* Modern Browsers */
 }
 @font-face {
   font-family: "Eina_01_Regular";
   font-display: swap;
   src: url(../fonts/eina/Eina01-Regular.eot); /* IE9 Compat Modes */
-  src: url(../fonts/eina/Eina01-Regular.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-    url(../fonts/eina/Eina01-Regular.svg) format("svg"), /* Legacy iOS */
-    url(../fonts/eina/Eina01-Regular.ttf) format("truetype"), /* Safari, Android, iOS */
-    url(../fonts/eina/Eina01-Regular.woff) format("woff"), /* Modern Browsers */
-    url(../fonts/eina/Eina01-Regular.woff2) format("woff2"); /* Modern Browsers */
+  src: url(../fonts/eina/Eina01-Regular.eot?#iefix) format("embedded-opentype"),
+    /* IE6-IE8 */ url(../fonts/eina/Eina01-Regular.svg) format("svg"),
+    /* Legacy iOS */ url(../fonts/eina/Eina01-Regular.ttf) format("truetype"),
+    /* Safari, Android, iOS */ url(../fonts/eina/Eina01-Regular.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../fonts/eina/Eina01-Regular.woff2)
+      format("woff2"); /* Modern Browsers */
 }
 @font-face {
   font-family: "SF_Pro_Text_Regular";
   font-display: swap;
   src: url(../fonts/sf_pro/SFPro-Text-Regular.eot); /* IE9 Compat Modes */
-  src: url(../fonts/sf_pro/SFPro-Text-Regular.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-    url(../fonts/sf_pro/SFPro-Text-Regular.svg) format("svg"), /* Legacy iOS */
-    url(../fonts/sf_pro/SFPro-Text-Regular.ttf) format("truetype"), /* Safari, Android, iOS */
-    url(../fonts/sf_pro/SFPro-Text-Regular.woff) format("woff"), /* Modern Browsers */
-    url(../fonts/sf_pro/SFPro-Text-Regular.woff2) format("woff2"); /* Modern Browsers */
+  src: url(../fonts/sf_pro/SFPro-Text-Regular.eot?#iefix)
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url(../fonts/sf_pro/SFPro-Text-Regular.svg) format("svg"),
+    /* Legacy iOS */ url(../fonts/sf_pro/SFPro-Text-Regular.ttf)
+      format("truetype"),
+    /* Safari, Android, iOS */ url(../fonts/sf_pro/SFPro-Text-Regular.woff)
+      format("woff"),
+    /* Modern Browsers */ url(../fonts/sf_pro/SFPro-Text-Regular.woff2)
+      format("woff2"); /* Modern Browsers */
 }
-
-
 
 /*--------*/
 /* Global */
@@ -45,23 +50,20 @@
 .bs {
   border: 1px solid aqua;
 
-  &.a { border: 1px solid red !important; }
-  &.b { border: 1px solid green !important; }
-  &.c { border: 1px solid blue !important; }
+  &.a {
+    border: 1px solid red !important;
+  }
+  &.b {
+    border: 1px solid green !important;
+  }
+  &.c {
+    border: 1px solid blue !important;
+  }
 }
 
-
 html {
-  font-family:
-    'SF_Pro_Text_Regular',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "SF_Pro_Text_Regular", "Source Sans Pro", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -80,4 +82,27 @@ html {
 
 .space-for-footer {
   padding-bottom: 200px;
+}
+
+.anchor {
+  font-family: "SF_Pro_Text_Regular";
+  font-size: 14px;
+  font-weight: 700;
+  color: #5f33ba;
+}
+
+.title {
+  font-family: "Eina_01_Bold";
+  font-weight: 700;
+}
+
+button {
+  font-family: "SF_Pro_Text_Regular";
+}
+
+.anchor {
+  font-family: "SF_Pro_Text_Regular";
+  font-size: 14px;
+  font-weight: 700;
+  color: #5f33ba;
 }
