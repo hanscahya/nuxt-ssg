@@ -146,9 +146,9 @@ export default {
   },
 
   async asyncData({ $axios }) {
-    const resHeader = await $axios.$get("header");
-    const resFooter = await $axios.$get("footer");
-    const resCareer = await $axios.$get("content/career");
+    const resHeader = await $axios.$get("header").then(response => { return response[0] });
+    const resFooter = await $axios.$get("footer").then(response => { return response[0] });
+    const resCareer = await $axios.$get("career").then(response => { return response[0] });
     return { resHeader, resFooter, resCareer };
   },
 
