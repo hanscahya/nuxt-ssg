@@ -211,9 +211,9 @@ import LineAnchor from "@/assets/svg/line-anchor.vue";
   },
 
   async asyncData({ $axios }: Context) {
-    const resHeader = await $axios.$get("header");
-    const resFooter = await $axios.$get("footer");
-    const resHome = await $axios.$get("content/home");
+    const resHeader = await $axios.$get("header").then(response => { return response[0] });
+    const resFooter = await $axios.$get("footer").then(response => { return response[0] });
+    const resHome = await $axios.$get("home").then(response => { return response[0] });
     return { resHeader, resFooter, resHome };
   },
 

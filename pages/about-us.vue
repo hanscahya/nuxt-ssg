@@ -149,9 +149,9 @@ import Ecosystem from "@/components/ecosystem.vue";
   },
 
   async asyncData({ $axios }: Context) {
-    const resHeader = await $axios.$get("header");
-    const resFooter = await $axios.$get("footer");
-    const resAbout = await $axios.$get("content/about");
+    const resHeader = await $axios.$get("header").then(response => { return response[0] });
+    const resFooter = await $axios.$get("footer").then(response => { return response[0] });
+    const resAbout = await $axios.$get("about").then(response => { return response[0] });
     return { resHeader, resFooter, resAbout };
   },
 
