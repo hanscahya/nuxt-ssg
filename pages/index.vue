@@ -12,8 +12,8 @@
             div.title(v-html="resHome.hero_1.title")
             div.paragraph(v-if="resHome.hero_1.paragraph" v-html="resHome.hero_1.paragraph")
             div.mt-3.d-flex
-              b-img.mr-3(fluid :src="require('@/assets/icon/app-store-btn.png')" :srcset="`${require('@/assets/icon/app-store-btn.png')} 1x, ${require('@/assets/icon/app-store-btn@2x.png')} 2x`")
-              b-img(fluid :src="require('@/assets/icon/google-play-btn.png')" :srcset="`${require('@/assets/icon/google-play-btn.png')} 1x, ${require('@/assets/icon/google-play-btn@2x.png')} 2x`")
+              b-img.mr-3(fluid src="https://i.imgur.com/Uw8njle.png" srcset="https://i.imgur.com/Uw8njle.png 1x, https://i.imgur.com/MYgADwd.png 2x")
+              b-img(fluid src="https://i.imgur.com/DodirG8.png" srcset="https://i.imgur.com/DodirG8.png 1x, https://i.imgur.com/qGGpmxZ.png 2x")
           b-col(cols="12" md="7")
             b-img(fluid :src="resHome.hero_1.bitmap" :src_set="resHome.hero_1.bitmap_set")
 
@@ -211,15 +211,9 @@ import LineAnchor from "@/assets/svg/line-anchor.vue";
   },
 
   async asyncData({ $axios }: Context) {
-    const header = await $axios.$get("header");
-    const resHeader = header[0];
-
-    const footer = await $axios.$get("footer");
-    const resFooter = footer[0];
-
-    const home = await $axios.$get("home");
-    const resHome = home[0];
-
+    const resHeader = await $axios.$get("header");
+    const resFooter = await $axios.$get("footer");
+    const resHome = await $axios.$get("content/home");
     return { resHeader, resFooter, resHome };
   },
 

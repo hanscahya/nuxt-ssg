@@ -8,5 +8,103 @@
 
     "title": "#createyourpath<br>with OVO",
     "paragraph": "Memimpin inovasi dan transformasi digital dalam bidang keuangan: Dengan teknologi termaju dan standar global, OVO memimpin inovasi aplikasi dan layanan finansial untuk masa yang akan datang."
+  },
+  "section_about": {
+    "anchor": "OVO",
+    "title": "Tentang OVO",
+
+    "heading_1": "Cakupan OVO",
+    "content_1": "OVO merupakan platform pembayaran digital, rewards dan layanan finansial terkemuka di Indonesia. Kini, OVO telah hadir di 115 juta perangkat dan bisa digunakan untuk mengakses pembayaran, transfer, top up dan tarik dana, manajemen aset, asuransi dan investasi.",
+    "heading_2": "Menjangkau yang belum terlayani",
+    "content_2": "OVO diterima di lebih dari 426 kota dan kabupaten di Indonesia dan terus berkomitmen membangun perusahaan pembayaran dan teknologi finansial terbesar di Indonesia.",
+
+    "bitmap": "https://i.imgur.com/QIbmJsP.png",
+    "bitmap_set": "https://i.imgur.com/QIbmJsP.png 1x, https://i.imgur.com/Fmlr1f0.png 2x"
+  },
+  "section_challenge": {
+    "anchor": "Tantangan  ",
+    "title": "OVO DNA",
+    "items": [
+      {
+        "title": "STRONG",
+        "description": "OVO is fearless, bold and able to withstand great force or pressure."
+      },
+      {
+        "title": "DYNAMIC",
+        "description": "OVO is agile, adaptive, and full of energy and new ideas."
+      },
+      {
+        "title": "EMPOWERING",
+        "description": "OVO gives its employees the authority or power to do something."
+      },
+      {
+        "title": "COLORFUL",
+        "description": "OVO is  rich, diverse and full of interest."
+      }
+    ],
+
+    "bitmap": "https://i.imgur.com/vUPJ4PI.png",
+    "bitmap_set": "https://i.imgur.com/vUPJ4PI.png 1x, https://i.imgur.com/pMuFcZX.png 2x"
+  },
+  "section_value": {
+    "anchor": "NILAI",
+    "title": "Together We Can",
+    "paragraph": "Kami di OVO terus bekerja bersama untuk mendorong inklusi keuangan di Indonesia. Inilah nilai-nilai yang kami pegang:",
+
+    "items": [
+      {
+        "icon_sm": "https://i.imgur.com/EDBJ4Ze.png",
+        "icon_lg": "https://i.imgur.com/SvLM1Rv.png",
+        "bitmap": "https://i.imgur.com/IlRFbz9.png",
+
+        "title": "Be the Customer",
+        "paragraph": "Terus berusaha menempatkan diri dalam perspektif pelanggan. Tidak hanya berupaya memenuhi, namun memberikan lebih dari harapan mereka."
+      },
+      {
+        "icon_sm": "https://i.imgur.com/t2I1J3b.png",
+        "icon_lg": "https://i.imgur.com/HBlYu56.png",
+        "bitmap": "https://i.imgur.com/IlRFbz9.png",
+
+        "title": "Be the Compass",
+        "paragraph": "Labore laborum nostrud nulla in est culpa incididunt nisi. Mollit ut voluptate sit laborum adipisicing magna enim occaecat occaecat ullamco laboris."
+      },
+      {
+        "icon_sm": "https://i.imgur.com/MdEHJPX.png",
+        "icon_lg": "https://i.imgur.com/xhEBKkO.png",
+        "bitmap": "https://i.imgur.com/IlRFbz9.png",
+
+        "title": "Be the Content",
+        "paragraph": "Pariatur ea do Lorem pariatur irure. Do anim veniam ipsum est excepteur qui eiusmod."
+      }
+    ]
+  },
+  "section_testimony": {
+    "title": "Apa hal yang menyenangkan bekerja di OVO?",
+    "items": [
+      {
+        "name": "James Bernard",
+        "label": "Head of UX",
+        "avatar": "https://live.staticflickr.com/65535/50998560785_aa807c64dc_o.png",
+        "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
+      },
+      {
+        "name": "Brooklyn Simmons",
+        "label": "Head of UX",
+        "avatar": "https://live.staticflickr.com/65535/51067842377_c14f8510cc_o.png",
+        "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
+      },
+      {
+        "name": "Leslie Alexander",
+        "label": "Head of UX",
+        "avatar": "https://live.staticflickr.com/65535/51067842437_255b79ef61_o.png",
+        "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
+      },
+      {
+        "name": "James Bernard",
+        "label": "Head of UX",
+        "avatar": "https://live.staticflickr.com/65535/50998560790_453f6dcb43_o.png",
+        "paragraph": "Di OVO adalah tempat yang paling nyaman buat para karyawan untuk melatih skill design dan public speaking."
+      }
+    ]
   }
 }
