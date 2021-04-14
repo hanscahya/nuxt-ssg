@@ -145,16 +145,15 @@ export default {
     };
   },
 
+  async mounted () {
+    this.jobs = await this.$axios.$get('https://605416b645e4b30017292aed.mockapi.io/job')
+  },
+
   async asyncData({ $axios }) {
     const resHeader = await $axios.$get("header").then(response => { return response[0] });
     const resFooter = await $axios.$get("footer").then(response => { return response[0] });
     const resCareer = await $axios.$get("career").then(response => { return response[0] });
     return { resHeader, resFooter, resCareer };
-  },
-
-  async fetch() {
-    this.jobs = await fetch('https://605416b645e4b30017292aed.mockapi.io/job')
-      .then(res => res.json());
   },
 
   methods: {
